@@ -15,9 +15,6 @@ const routes = {
   ["ghcr." + CUSTOM_DOMAIN]: "https://ghcr.io",
   ["cloudsmith." + CUSTOM_DOMAIN]: "https://docker.cloudsmith.io",
   ["ecr." + CUSTOM_DOMAIN]: "https://public.ecr.aws",
-
-  // staging
-  ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
 };
 
 function routeByHosts(host) {
